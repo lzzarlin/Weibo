@@ -10062,3 +10062,11 @@ section.user_info h1 {
   float: none;
   max-width: 100px;
 }
+
+/* Users index */
+.list-group-item {
+  padding-left: 0px;
+}
+.list-group-item img {
+  max-width: 30px;
+}
