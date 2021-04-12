@@ -33,4 +33,6 @@ class SessionsController extends Controller
         session()->flash('success', 'you have logout successfully!');
         return redirect('login');
     }
+
+
 }
