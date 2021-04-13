@@ -13,6 +13,7 @@ nav.navbar.navbar-expand-lg {
 /* footer */
 
 footer{
+  height: 100px;
   margin-top: 10px;
   padding-top: 10px;
   border-top: 1px solid #eaeaea;
@@ -76,3 +77,31 @@ section.user_info {
     max-width: 30px;
   }
 }
+
+.stats{
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+  a {
+    float: left;
+    padding: 0 10px;
+    text-align: center;
+    width: 33%;
+    border-left: 1px solid #eee;
+    color: #33383c;
+    &:first-child {
+      padding-left: 10;
+      border: 0;
+    }
+    &:hover {
+      text-decoration: none;
+      color: #337ab7;
+    }
+  }
+  strong {
+    display: block;
+    font-size: 1.2em;
+    color: black;
+  }
+}
+

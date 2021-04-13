@@ -10012,6 +10012,7 @@ nav.navbar.navbar-expand-lg {
 
 /* footer */
 footer {
+  height: 100px;
   margin-top: 10px;
   padding-top: 10px;
   border-top: 1px solid #eaeaea;
@@ -10069,4 +10070,31 @@ section.user_info h1 {
 }
 .list-group-item img {
   max-width: 30px;
+}
+
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+}
+.stats a {
+  float: left;
+  padding: 0 10px;
+  text-align: center;
+  width: 33%;
+  border-left: 1px solid #eee;
+  color: #33383c;
+}
+.stats a:first-child {
+  padding-left: 10;
+  border: 0;
+}
+.stats a:hover {
+  text-decoration: none;
+  color: #337ab7;
+}
+.stats strong {
+  display: block;
+  font-size: 1.2em;
+  color: black;
 }
